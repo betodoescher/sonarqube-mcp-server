@@ -1,0 +1,24 @@
+# Environment variables - never commit credentials
+.env
+*.env
+
+# Build output
+dist/
+
+# Dependencies
+node_modules/
+
+# SonarQube scanner work directory
+.scannerwork/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.kiro/
